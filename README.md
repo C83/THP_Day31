@@ -41,3 +41,7 @@ Then, you can run server or tests :
   - [X] Code done
   - [ ] Tests redirection 
   - [X] test link on show page
+
+### TODO : 
+- test the login of devise
+- create my user edit page with good redirections
