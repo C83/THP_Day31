@@ -12,7 +12,7 @@ After cloning the repository,
 - Add a .env file ```touch .env``` and reply with a secret_key_base of devise. Ex : ```SECRET_KEY_BASE= 'ab9c10c167aebe4a36482fd226938e3e2cea30a9915ca316d76d47583f9ac2606e72fd5812dff0c1e5a0461319871826cc6cdd96dddf6163c9f24223e6ee4798' ``` 
 
 Then, you can run server or tests :
-- For server : ''' rails server```
+- For server : ``` rails server```
 
 - For model tests : ```rails test:models```
 
