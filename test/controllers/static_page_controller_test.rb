@@ -12,6 +12,7 @@ class StaticPageControllerTest < ActionDispatch::IntegrationTest
     	assert_response :success
     end
 
+    # Il faut tester la page d'accueil, et faire en sorte qu'elle affiche les bons liens, en fonction si la personne est connectée ou non
     test "should display a button to login and signup when you aren't connected" do 
     	get root_path
     	assert_select 'a', 'Login' 
@@ -24,6 +25,7 @@ class StaticPageControllerTest < ActionDispatch::IntegrationTest
     	assert_select 'a', 'Log out' 
     end
 
+    # Il faut tester la navbar, qui doit afficher les bons liens
     test "navbar should display good link when you are disconnected on two different pages" do
     	get root_path
     	assert_select 'a', 'Log In' 
